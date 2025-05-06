@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_bloc_infinite_list/src/app.dart';
 
 void main() {
   runApp(const MyApp());
+  // Bloc.observer = const PostObserver();
 }
 
 class MyApp extends StatelessWidget {
